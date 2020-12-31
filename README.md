@@ -1,1 +1,1 @@
-# algo-preps
+# Data Structures and Algorithms Preparation Kit
