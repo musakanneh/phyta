@@ -1,1 +1,1 @@
-# Data Structures and Algorithms Preparation Kit
+# Data Structures and Algorithms Preparation Kit.
