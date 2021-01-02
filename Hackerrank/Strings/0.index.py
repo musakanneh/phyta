@@ -1,9 +1,10 @@
 from collections import Counter
 
+
 class StringManipulations(object):
     def __init__(self):
         pass
-        
+
     def make_anagram(self, a, b):
         """
         1st solution
@@ -32,18 +33,18 @@ class StringManipulations(object):
         count = 0
         for i in range(1, len(s)):
             if s[i] == s[i - 1]:
-                count  += 1 
+                count += 1
         return count
-    
+
     def reverse_string(self, s):
         left = 0
-        right = len(s) -1
+        right = len(s) - 1
         while left < right:
             s[left], s[right] = s[right], s[left]
             left += 1
             right -= 1
         return s
-    
+
     def first_uniq_char(self, s):
         """
         Given a string, find the first non-repeating
@@ -59,8 +60,8 @@ class StringManipulations(object):
         for i in range(len(s)):
             if _map[s[i]] == 1:
                 return i
-        return -1      
-    
+        return -1
+
     def is_palindrome(self, s):
         result = [i for i in s.lower() if i.isalnum()]
         left, right = 0, len(result) - 1
@@ -69,7 +70,8 @@ class StringManipulations(object):
                 return False
             left += 1
             right -= 1
-        return True            
-# s = "A man, a plan, a canal: Panama"
+        return True
+
+
 s = "race a car"
 print(StringManipulations().is_palindrome(s))
