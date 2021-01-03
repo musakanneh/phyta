@@ -1,29 +1,25 @@
-class SinglyLinkedListNode(self, node_data):
-    def __init__(self, node):
-        self.node = node
-        self.next = None
+class LinkedList:
+    def __init__(self, data=0, next_node=0):
+        self.data = data
+        self.next_node = next_node
 
-
-class SinglyLinkedList(self):
-    def __init__(self):
-        self.head = head
-        self.tail = None
-
-    def insert_node(self, node_data):
-        pass
-
-    def insert_node_at_pos(self, head, data, position):
-        if head == None:
-            head = self.node
-        else:
-            temp = head
-            count = 0
-            while temp != None and count < position:
-                temp = temp.next
-                count += 1
-            node.next = temp.next
-            temp.next = self.node
+    def search_list(self, head, key):
+        while head and head.data != key:
+            head = head.next
         return head
 
-    def sortedInsert(self, head, data):
+    def insert_node_after(self, node, new_node):
+        node_node = node.next
+        node.next = new_node
+
+    def delete_node(self, node):
+        node.next = node.next.next
+
+    def merge_two_sorted_list(self, list_one, list_two):
+        """
+        Reverse e
+        """
         pass
+
+
+new_node = LinkedList("M")
