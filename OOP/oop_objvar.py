@@ -1,4 +1,4 @@
-class Robort:
+class Robot:
     """A Robort class that
     takes a name value a classvariable, population
     to count the number of roborts
@@ -14,7 +14,7 @@ class Robort:
         """
         self.name = name
         print("Initializing {}".format(name))
-        Robort.population += 1
+        Robot.population += 1
 
     def kill_robort(self):
         """Kills the robort
@@ -22,11 +22,11 @@ class Robort:
 
         """
         print("{} is being destroyed".format(self.name))
-        Robort.population -= 1
-        if Robort.population == 0:
+        Robot.population -= 1
+        if Robot.population == 0:
             print("{} was the last one".format(self.name))
         else:
-            print("There are still {:d} roborts working".format(Robort.population))
+            print("There are still {:d} roborts working".format(Robot.population))
 
     def say_hi(self):
         """Greeting by the robort
@@ -44,13 +44,13 @@ class Robort:
         print("We have {:d} robort(s)".format(cls.population))
 
 
-robort = Robort("R2-D2")
+robort = Robot("R2-D2")
 robort.name
 robort.say_hi()
 robort.robert_count()
 
 print("")
-robort2 = Robort("C-3PO")
+robort2 = Robot("C-3PO")
 robort2.name
 robort2.say_hi()
 robort2.robert_count()
@@ -59,3 +59,5 @@ print("\nRobots can do some work here.\n")
 print("Robots have finished their work. So let's destroy them.")
 robort.kill_robort()
 robort2.kill_robort()
+
+Robot.robert_count()
