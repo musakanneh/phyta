@@ -25,4 +25,8 @@ procedure-oriented way of programming - is centered on block of statement which 
     - class variables: are shared - they can be accessed by all instances of that class. There is only one copy of the class variable and when any one object makes a change to a class variable, that change will be seen by all the other instances.
     - object variables: are owned by each individual object/instance of the class. In this case, each object has its own copy of the field i.e. they are not shared and are not related in any way to the field by the same name in a different instance. 
 - The are classified depending on whether the class or the object owns the variables respectively.
-- 
+# Inheritance
+One of the major benefits of object oriented programming is reuse of code and one of the ways this is achieved is through the inheritance mechanism. 
+- Inheritance can be best imagined as implementing a type and subtype relationship between classes.
+- Another advantage is that you can refer to a teacher or student object as a SchoolMember object which could be useful in some situations such as counting of the number of school members. 
+- This is called polymorphism where a sub-type can be substituted in any situation where a parent type is expected, i.e. the object can be treated as an instance of the parent class.
