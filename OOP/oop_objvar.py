@@ -1,7 +1,7 @@
 class Robot:
     """A Robort class that
-    takes a name value a classvariable, population
-    to count the number of roborts
+    takes a name value and a class variable: population.
+
     """
 
     population = 0
@@ -26,7 +26,8 @@ class Robot:
         if Robot.population == 0:
             print("{} was the last one".format(self.name))
         else:
-            print("There are still {:d} roborts working".format(Robot.population))
+            print("There are still {:d} roborts working".format(
+                Robot.population))
 
     def say_hi(self):
         """Greeting by the robort
