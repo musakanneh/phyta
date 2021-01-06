@@ -1,5 +1,5 @@
 
-def new_year_chaos(self, q):
+def new_year_chaos(q):
     counter = 0
     for i in range(len(q) - 1, 0, -1):
         if q[i] != i + 1:
@@ -13,3 +13,5 @@ def new_year_chaos(self, q):
             print("Too strong")
             return
     return counter
+
+print(new_year_chaos())
