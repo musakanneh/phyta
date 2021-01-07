@@ -34,7 +34,7 @@ class MergeTwoLists(object):
 
             c1 = node_count(head1)
             c2 = node_count(head2)
-            
+
             if c1 > c2:
                 return common_node(c1 - c2, head1, head2)
             return common_node(c2 - c1, head2, head1)

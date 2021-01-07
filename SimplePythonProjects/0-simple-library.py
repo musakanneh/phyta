@@ -9,26 +9,34 @@ class Library:
 
     def display_available_book(self):
         """Displays available books in the library"""
+        print()
+        print("Available books: ")
         for book in self.available_books:
-            print("Available books: {} ".format(book))
+            print(book)
+        print()
 
     def lend_book(self, requested_book):
         """Shows books available for lending
-
-        Checks if the requested book is in the collection
-        if the book is available, lend the book to the user
-        then remove the book for the list
+        Args:
+            requested_book - checks if the requested
+            book is in the collection if the book is
+            available, lend the book to the user then
+            remove the book for the list
 
         """
-        if self.requested_book in self.available_book:
+        print()
+        if requested_book in self.available_books:
             print("You have now borrowed the book")
             self.available_books.remove(requested_book)
         else:
-            print("Sorry, the book is not available in our list")
+            print("Sorry, the book is already taken")
 
     def add_book(self, returned_book):
         """Adds return books to the library
         and update the count
+        Args:book_name
+            returned_book - receives and appends
+            the book to the list
 
         """
         self.available_books.append(returned_book)
@@ -37,27 +45,30 @@ class Library:
 
 class Customer:
     """Shows books available for lending
+    and returning
 
     """
 
     def request_book(self):
-        """Allows a customer to enter a book ne he/she wants to
-        borrow
+        """Allows a customer to enter a book if
+        he/she wants to borrow
 
         """
+        print()
         print("Name of the book to borrow: ")
         self.book_name = input()
         return self.book_name
 
-    def return_book(self, return_book_name):
+    def return_book(self):
         """once the customer returns the book,
         we add the book back to the list
 
         """
-        print("Name of the book to return:{}".format(self.return_book_name))
-        self.return_book_name = input()
-        return self.return_book_name
-        # print()
+        print()
+        print("Name of the book to return :")
+        self.book_name = input()
+        return self.book_name
+        print()
 
 
 library = Library(['Book One', 'Book Two', 'Book Three'])
@@ -79,5 +90,5 @@ while True:
     elif user_choice == 3:
         return_book = customer.return_book()
         library.add_book(return_book)
-    elif  user_choice == 4:
+    elif user_choice == 4:
         quit()
