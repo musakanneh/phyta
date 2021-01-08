@@ -1,4 +1,4 @@
-def isBalanced(s):
+def is_balanced(s):
     brackets = {"{": "}", "[": "]", "(": ")"}
     stack = []
     for char in s:
@@ -12,3 +12,7 @@ def isBalanced(s):
             else:
                 return "No"
     return "NO" if stack else "YES"
+
+
+s = "{{[[(())]]}}"
+print(is_balanced(s))

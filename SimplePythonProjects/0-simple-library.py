@@ -1,7 +1,7 @@
 class Library:
     """A library class that performs books
     lending and management functionalities
-
+    
     """
 
     def __init__(self, book_list):
@@ -18,11 +18,10 @@ class Library:
     def lend_book(self, requested_book):
         """Shows books available for lending
         Args:
-            requested_book - checks if the requested
-            book is in the collection if the book is
-            available, lend the book to the user then
-            remove the book for the list
-
+            requested_book - checks if the requested book is in the
+            collection if the book is available, lend the book to the user
+            then remove the book for the list
+            
         """
         print()
         if requested_book in self.available_books:
@@ -34,10 +33,10 @@ class Library:
     def add_book(self, returned_book):
         """Adds return books to the library
         and update the count
-        Args:book_name
+        Args:
             returned_book - receives and appends
             the book to the list
-
+            
         """
         self.available_books.append(returned_book)
         print("Book returned successfully")
@@ -46,13 +45,13 @@ class Library:
 class Customer:
     """Shows books available for lending
     and returning
-
+    
     """
 
     def request_book(self):
         """Allows a customer to enter a book if
         he/she wants to borrow
-
+        
         """
         print()
         print("Name of the book to borrow: ")
@@ -62,7 +61,7 @@ class Customer:
     def return_book(self):
         """once the customer returns the book,
         we add the book back to the list
-
+        
         """
         print()
         print("Name of the book to return :")
