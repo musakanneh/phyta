@@ -1,7 +1,7 @@
 class Pangram(object):
     def __init__(self):
         pass
-    
+
     def is_pangram(self, s):
         _list = []
         for letter in s:
@@ -13,7 +13,18 @@ class Pangram(object):
         for letter in _list:
             if letter in is_alpha:
                 is_alpha.append(letter)
-        return True if len(is_alpha) == 0 else False
-            
-_string = "The quick brown fuck jumps over the lazy dog."
+        return "Is Pangram" if len(is_alpha) == 0 else "Not Pangram"
+
+    def is_pangram_ii(self, string):
+        """Approach -
+        -  Know the definition of pangram
+        -  special characters
+        -  not accepting numbers
+        -  
+        
+        """
+        pass
+
+
+_string = "abcdefghijklmnopqrstuvwxyz"
 print(Pangram().is_pangram(_string))

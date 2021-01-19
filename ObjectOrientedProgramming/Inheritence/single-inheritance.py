@@ -1,6 +1,5 @@
 class Apple:
-    """
-    """
+    """"""
     manufacturer = "Apple Inc"
     contact_website = "www.apple.com"
 

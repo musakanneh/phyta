@@ -1,7 +1,14 @@
 class Car:
     name = "BMW"
-    _price = 20, 000
+    _price = 20
+    ___color = "Red"
 
 
 class CarType(Car):
-    pass
+    def __init__(self):
+        model = "Band"
+        print("The price is {:d} and the color is {}".format(
+            self._price, self._Car___color))
+
+
+car_type = CarType()
