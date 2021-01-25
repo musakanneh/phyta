@@ -9,5 +9,6 @@ class Solution:
 
     """
 
-    def reverseBits(self, n: int):
+    def reverse_bits(self, n):
+        """"""
         pass

@@ -18,16 +18,15 @@ class Solution(object):
     def has_cycle(self, head):
         hare = head
         turtle = head
-
         while turtle and hare and hare.next:
             hare = hare.next.next
             turtle = turtle.next
-
             if turtle == hare:
                 return True
-
         return False
 
 
 head = [1, 2]
-print(Solution().hasCycle(head))
+print(Solution().has_cycle(head))
+
+
