@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -5,15 +7,15 @@ class ListNode:
         self.next = None
 
 
-class Solution:
+class Solution(object):
     """Given head, the head of a linked list, 
     determine if the linked list has a cycle in it.
-    
+
     https://leetcode.com/problems/linked-list-cycle/
-    
+
     """
 
-    def hasCycle(self, head: ListNode):
+    def has_cycle(self, head):
         hare = head
         turtle = head
 
@@ -25,3 +27,7 @@ class Solution:
                 return True
 
         return False
+
+
+head = [1, 2]
+print(Solution().hasCycle(head))

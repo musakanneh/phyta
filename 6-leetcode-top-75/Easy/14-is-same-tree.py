@@ -15,5 +15,5 @@ class TreeNode:
 
 
 class Solution:
-    def isSameTree(self, p: TreeNode, q: TreeNode):
+    def isSameTree(self, p, q):
         pass

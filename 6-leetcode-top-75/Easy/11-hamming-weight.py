@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 class Solution:
     """Number of 1 Bits
     Write a function that takes an unsigned integer and returns
@@ -7,5 +10,5 @@ class Solution:
 
     """
 
-    def hammingWeight(self, n: int):
+    def hamming_weight(self, n):
         pass

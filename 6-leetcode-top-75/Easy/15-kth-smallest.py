@@ -13,5 +13,5 @@ class Solution:
     https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     """
 
-    def kthSmallest(self, root: TreeNode, k: int):
+    def kthSmallest(self, root, k):
         pass

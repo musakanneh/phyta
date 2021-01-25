@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 # Definition for a binary tree node.
 class TreeNode:
     """Maximum Depth of Binary Tree
@@ -12,7 +15,7 @@ class TreeNode:
 
 
 class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
+    def max_depth(self, root: TreeNode) -> int:
         if(root is None):
             return 0
         if(root.left is None and root.right is None):
