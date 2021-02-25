@@ -1,6 +1,7 @@
 class Trie:
     """Implement a trie with insert, search, and startsWith methods.
     https://leetcode.com/problems/implement-trie-prefix-tree/
+
     """
 
     def __init__(self):
@@ -20,7 +21,9 @@ class Trie:
 
     def startsWith(self, prefix: str):
         """
-        Returns if there is any word in the trie that starts with the given prefix.
+        Returns if there is any word in the trie that
+        startswith the given prefix.
+
         """
 
 
