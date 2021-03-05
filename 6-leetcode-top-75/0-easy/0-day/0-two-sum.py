@@ -2,12 +2,10 @@
 
 
 class TwoNumberSum(object):
-    """Two number sum
-
-    Question:
-        Returns indices of two numbers such that they add up to target.
-        https://leetcode.com/problems/two-sum/
-
+    """
+    Two number sum
+    Returns indices of two numbers such that they add up to target.
+    https://leetcode.com/problems/two-sum/
     """
 
     def two_sum(self, nums, target):

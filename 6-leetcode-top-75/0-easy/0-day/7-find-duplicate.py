@@ -5,10 +5,9 @@
 
 def find_duplicate(number):
     for n in number:
-        """Simple circle detection algorithm
-
+        """
+        Simple circle detection algorithm
         Floyd's algorithms
-
         """
         turtle = number[0]
         hare = number[0]

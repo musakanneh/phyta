@@ -1,5 +1,6 @@
 class Solution:
-    """Find Minimum in Rotated Sorted Array
+    """
+    Find Minimum in Rotated Sorted Array
     Suppose an array of length n sorted in ascending order is rotated
     between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
 
@@ -7,8 +8,7 @@ class Solution:
     [0,1,2,4,5,6,7] if it was rotated 7 times.
 
     https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-
     """
 
-    def findMin(self, nums: List[int]):
+    def find_min(self, nums: List[int]):
         pass

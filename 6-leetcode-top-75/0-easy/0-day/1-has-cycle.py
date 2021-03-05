@@ -8,11 +8,10 @@ class ListNode:
 
 
 class Solution(object):
-    """Given head, the head of a linked list, 
+    """
+    Given head, the head of a linked list, 
     determine if the linked list has a cycle in it.
-
     https://leetcode.com/problems/linked-list-cycle/
-
     """
 
     def has_cycle(self, head):

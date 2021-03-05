@@ -2,18 +2,16 @@
 
 
 class Solution(object):
-    """Finds if the array contains any duplicates.
-    Returns:
-        Returns true if any value appears at least twice in the array,
-        False - if every element is distinct.
-
+    """
+    Finds if the array contains any duplicates.
+    Returns true if any value appears at least twice in the array,
+    False - if every element is distinct.
     https://leetcode.com/problems/contains-duplicate/
-
     """
 
     def contains_duplicate(self, nums):
         """
-        Agrs:
+        Args:
             nums(List[int]): list of input integers
 
         """
