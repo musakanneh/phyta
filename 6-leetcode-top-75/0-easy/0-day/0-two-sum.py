@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 
+
 class TwoNumberSum(object):
     """
     Two number sum
