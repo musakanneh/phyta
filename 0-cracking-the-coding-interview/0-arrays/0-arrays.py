@@ -68,9 +68,7 @@ class Arrays:
         that the string has sufficient space at the end to hold the additional
         characters, and that you are given the "true" length of the string.
         (Note: If implementing in Java, please use a character array so that you
-        can perform this operation in place.)
-
-        """
+        can perform this operation in place.)"""
         pass
 
     def palindrome_permutation(self, string):

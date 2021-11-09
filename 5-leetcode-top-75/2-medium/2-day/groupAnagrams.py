@@ -11,7 +11,6 @@ class Solution:
     Input: strs = ["eat","tea","tan","ate","nat","bat"]
     Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
     https://leetcode.com/problems/group-anagrams/
-
     """
 
     def groupAnagrams(self, strs: List[str]):

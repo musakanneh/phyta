@@ -10,7 +10,6 @@ class WordDictionary:
     matches word or false otherwise. word may contain dots '.' where dots can be matched with any letter.
 
     https://leetcode.com/problems/design-add-and-search-words-data-structure/
-
     """
 
     def __init__(self):

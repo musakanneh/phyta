@@ -11,7 +11,6 @@ class Solution:
     according to their start times.
 
     https://leetcode.com/problems/insert-interval/
-
     """
 
     def insert(self, intervals: List[List[int]], newInterval: List[int]):

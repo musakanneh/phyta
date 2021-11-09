@@ -11,7 +11,6 @@ class Solution:
     Given preorder and inorder traversal of a tree, construct the binary tree.
 
     https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
-
     """
 
     def buildTree(self, preorder: List[int], inorder: List[int]):

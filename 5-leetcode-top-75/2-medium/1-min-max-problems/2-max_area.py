@@ -29,7 +29,6 @@ class Solution:
     -----------------
     Input: height = [4,3,2,1,4]
     Output: 16
-
     """
 
     def max_area(self, height: List[int]):
