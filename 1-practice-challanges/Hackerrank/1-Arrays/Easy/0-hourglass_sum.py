@@ -1,10 +1,5 @@
-
 class Solution(object):
-    """
-    """
     def hourglass_sum(self, arr):
-        """
-        """
         max_sum = -99
         for i in range(4):
             for j in range(4):

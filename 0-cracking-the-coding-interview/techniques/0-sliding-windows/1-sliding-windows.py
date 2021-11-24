@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 class SlidingWindows(object):
     def solution(self):
         pass

@@ -2,8 +2,7 @@
 
 
 class Arrays:
-    """A class representation of an array
-    """
+    """A class representation of an array"""
 
     def string_builder(self, words):
         """Apprends two strings"""
@@ -18,9 +17,7 @@ class Arrays:
 
         Approach:
             Create a map and look it up
-            Check for occurences of characters in the array
-
-        """
+            Check for occurences of characters in the array"""
         _map = {}
         for i in range(len(string)):
             if string[i] not in _map:
@@ -37,9 +34,7 @@ class Arrays:
         return its index. If it doesn't exist, return -1.
 
         Args:
-            string(str): the input string
-
-        """
+            string(str): the input string"""
         _hash_map = {}
         for i in range(len(string)):
             if string[i] not in _hash_map:
@@ -56,11 +51,7 @@ class Arrays:
         decide if one is a permutation of the other
 
         Args:
-            string(str): input string
-
-        Approach:
-
-        """
+            string(str): input string"""
         pass
 
     def url_lify(self, string):

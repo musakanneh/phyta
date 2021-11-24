@@ -3,8 +3,7 @@
 
 
 class TwoNumberSum(object):
-    """
-    Two number sum
+    """ Two number sum
     Returns indices of two numbers such that they add up to target.
     https://leetcode.com/problems/two-sum/
     """
