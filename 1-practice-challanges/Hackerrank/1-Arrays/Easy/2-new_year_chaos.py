@@ -13,4 +13,5 @@ def new_year_chaos(q):
             return
     return counter
 
+
 print(new_year_chaos())

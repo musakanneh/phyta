@@ -1,5 +1,4 @@
 class Apple:
-    """"""
     manufacturer = "Apple Inc"
     contact_website = "www.apple.com"
 
@@ -8,11 +7,6 @@ class Apple:
 
 
 class MacBook(Apple):
-    """A derived class inheriting from the Apple (base)
-    class
-
-    """
-
     def __init__(self):
         self.manifacture_year = 2017
 

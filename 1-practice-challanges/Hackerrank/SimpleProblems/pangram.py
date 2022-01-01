@@ -16,13 +16,6 @@ class Pangram(object):
         return "Is Pangram" if len(is_alpha) == 0 else "Not Pangram"
 
     def is_pangram_ii(self, string):
-        """Approach -
-        -  Know the definition of pangram
-        -  special characters
-        -  not accepting numbers
-        -  
-        
-        """
         pass
 
 

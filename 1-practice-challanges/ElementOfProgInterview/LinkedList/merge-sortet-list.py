@@ -3,17 +3,11 @@ class ListNode:
         self.head = head
         self.next = None
 
-
 class MergeSortedList(object):
     def __init__(self):
         pass
 
     def merge_sorted_list(self, list_1, list_2):
-        """
-        Traverse the list; always choose the
-        node containing the smaller key to 
-        continue traversing 
-        """
         temp_head = tail = ListNode()
         while list_1 and list_2:
             if list_1.data < list_2.data:

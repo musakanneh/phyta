@@ -1,18 +1,6 @@
 #!/usr/bin/python3
 
 class Solution(object):
-    """Valid Palindrome
-    Given a string, determine if it is a palindrome,
-    considering only alphanumeric characters and ignoring cases.
-
-    https://leetcode.com/problems/valid-palindrome/
-
-    Example 1:
-    ------------
-    Input: "A man, a plan, a canal: Panama"
-    Output: true
-    """
-
     def is_palindrome(self, s):
         result = [i for i in s.lower() if i.isalnum()]
         left, right = 0, len(result) - 1

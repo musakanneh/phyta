@@ -9,9 +9,6 @@ class Stack:
         return self.stack == []
 
     def pop(self):
-        """check if stack is empty
-        do nothing; otherwise, remove the val at the index
-        """
         if self.is_empty():
             return "Stack is empty"
         return self.stack.pop(0)

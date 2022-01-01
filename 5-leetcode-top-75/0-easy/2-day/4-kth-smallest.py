@@ -5,13 +5,6 @@ class TreeNode:
         self.left = left
         self.right = right
 
-
 class Solution:
-    """Given a binary search tree, write a function
-    kthSmallest to find the kth smallest element in it.
-
-    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-    """
-
     def kthSmallest(self, root, k):
         pass

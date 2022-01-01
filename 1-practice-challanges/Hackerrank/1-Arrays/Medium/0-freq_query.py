@@ -1,12 +1,7 @@
 from collections import Counter
 
-
 class Solution(object):
     def freq_query(self, queries):
-        """
-        Return frequency of occurances of 
-        element in an array
-        """
         result = []
         hash_map = Counter()
         hash_values = Counter()

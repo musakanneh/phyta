@@ -10,9 +10,6 @@ class MergeTwoLists(object):
 
     def merge_two_list(self, head1, head2):
         def node_count(head):
-            """
-            Gets the count of node  in the list
-            """
             count = 0
             while head != None:
                 head = head.next
@@ -20,10 +17,6 @@ class MergeTwoLists(object):
             return count
 
         def common_node(d, head1, head2):
-            """
-            Finds the list intersection
-            and returns the common data
-            """
             for i in range(d):
                 head1 = head1.next
             while head1 and head2:

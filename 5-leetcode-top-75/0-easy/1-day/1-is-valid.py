@@ -1,17 +1,6 @@
-"""Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
-determine if the input string is valid.
-
-Input: s = "()[]{}"
-Output: true
-
-"""
-
 #!/usr/bin/python3
 
-
 class Solution:
-    """Valid Parentheses"""
-
     def is_valid(self, s: str):
         opening_brackets = "({["
         clossing_brackets = ")}]"

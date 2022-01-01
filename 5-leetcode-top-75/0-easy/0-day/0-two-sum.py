@@ -1,13 +1,7 @@
 #!/usr/bin/python3
 
 
-
 class TwoNumberSum(object):
-    """ Two number sum
-    Returns indices of two numbers such that they add up to target.
-    https://leetcode.com/problems/two-sum/
-    """
-
     def two_sum(self, nums, target):
         _hash_map = {}
 

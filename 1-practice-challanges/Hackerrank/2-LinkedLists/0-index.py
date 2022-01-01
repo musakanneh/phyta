@@ -16,9 +16,6 @@ class LinkedList:
         node.next = node.next.next
 
     def merge_two_sorted_list(self, list_one, list_two):
-        """
-        Reverse e
-        """
         pass
 
 
