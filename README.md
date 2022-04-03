@@ -1,3 +1,1 @@
-# Software Engineering Interview Preparation Kit.
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/74fbe6469f2da32a527ce1d7606199670eea1ca2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20210218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210218T074334Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=939de19114f35f0edaa8ea7cc7f583dba54300727bae72990345a2c7c864bc03)
-Although you’ve covered a lot of ground, there is still a lot of work to do before landing your internship or job. Take a deep breath; you’ve got this! This repository contains common interview challenges and solutions, along with simple Python3 interview projects. Feel free to follow along, clone or fork this repo, then soon celebrate your win!
+
